@@ -1,6 +1,6 @@
 name: "Wire Pod Home Assistant Add-on"
 description: "Home Assistant Add-on to run Wire Pod"
-version: "0.1.1"
+version: "0.1.2"
 slug: "wire_pod"
 init: false
 arch:
@@ -9,3 +9,5 @@ arch:
   - armhf
   - armv7
   - i386
+ports:
+    8080/tcp: 8080
