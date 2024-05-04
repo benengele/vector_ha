@@ -1,3 +1,4 @@
-#!/usr/bin/with-contenv bashio
+#!/bin/sh
 
-echo "Hello renamed add on."
+echo "Hello from ubuntu?"
+uname -r

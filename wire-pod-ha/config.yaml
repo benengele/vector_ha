@@ -1,6 +1,6 @@
 name: "Wire Pod Home Assistant Add-on"
 description: "Home Assistant Add-on to run Wire Pod"
-version: "0.0.1"
+version: "0.0.2"
 slug: "wire_pod"
 init: false
 arch:
