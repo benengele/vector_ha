@@ -1,7 +1,7 @@
 FROM ubuntu
 
 
-COPY wrire-pod .
+COPY wire-pod .
 
 RUN chmod +x /setup.sh && apt-get update && apt-get install -y dos2unix && dos2unix /setup.sh && apt-get install -y avahi-daemon avahi-autoipd
 
